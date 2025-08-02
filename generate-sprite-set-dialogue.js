@@ -16,7 +16,7 @@ const VIEWBOX = "0 0 128 128";
 // Add the icons you want via command line - node, script name, the chosen filename to go into the output folder, and the icons you want separated by spaces.
 const args = process.argv.slice(2);
 if (args.length < 2) {
-  console.error("Usage: node generate-sprite-set.js <all-icons> <icon1> <icon2> ...");
+  console.error("Usage: node generate-sprite-set-dialogue.js <all-icons> <icon1> <icon2> ...");
   process.exit(1);
 }
 
