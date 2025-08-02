@@ -2,11 +2,11 @@
 A work in progress. A GUI will probably follow later. For now, here's a CLI tool with a dialogue tree to help people resolve any typo issues.
 
 ## Usage notes
-Please read the comments in the code itself.
+Please read the comments in the code itself. Basically, add your constants (directories) to the file, and decide if you want minified or standard output or both. Then to use it you just write `node generate-sprite-set-dialogue.js filename icon icon icon` - where filename is the name for your SVG sprite set, and the icons are the ones you want to include.
 
 ## Important links
 [Susty Icon Set Previews](https://codewordcreative.github.io/susty-icons/preview-variants.html)
-This page provides a convenient preview of the sets and a link to a ZIP file. Given that the sprite generator strips all styling, though, all outline styles are ultimately identical.
+This page provides a convenient preview of the sets and a link to a ZIP file. Given that the sprite generator strips all styling, though, all outline styles are ultimately identical. It also contains instructions on how to use the SVG sprite set.
 
 [Susty Icon CSS Playground](https://codewordcreative.github.io/susty-icons/sustyicon-css-playground.html)
 Use this to find the names of the icons you want to use at a glance.
