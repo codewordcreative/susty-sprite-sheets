@@ -16,11 +16,12 @@ Also use it to experiment and find the right CSS styling for your use case. You 
 Here you can find the whole Susty Icons Github.
 
 ## Dependencies
-Uses cheerio.
-Uses the Susty Icons set.
+Uses node.js, obviously!
+Uses cheerio. `npm install cheerio`
+Designed to work with the Susty Icons set.
 
 ## Warning
 Sometimes icons that have reused parts (for efficiency) will behave unexpectedly when formatting is applied. Identify the respective ID and target that, additionally, as needed. Overlap between these IDs and others is unlikely due to 3-letter prefix randomisation.
 
 ## Other icon sets
-Not designed to work with other sets - that'd require a fair bit of cleaning and harmonising. Others are welcome to use this code as a basis, just please credit for any inspiration provided. You may be able to make it work with other sets with a consistent viewport and with extraneous data already stripped.
+Not designed to work with other sets - that'd require a fair bit of cleaning and harmonising. Others are welcome to use this code as a basis, just please credit for any inspiration provided. You may be able to make it work with other sets with a consistent viewport and with extraneous data already stripped. No support for use with other icon sets can be provided. But do let me know if any work near-natively (i.e., with just an adjustment to the viewport). Always good to know.
